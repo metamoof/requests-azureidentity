@@ -24,7 +24,7 @@ setup(
     keywords= ["requests", "azure", "identity", "azure.identity", "OAuth", ],
     python_requires=">=3.6",
     install_requires=[
-        "azure-identity",
-        "requests",
+        "azure-identity>=1.6.0",
+        "requests>=2.26.0",
     ],
 )
