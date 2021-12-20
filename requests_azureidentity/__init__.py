@@ -1,4 +1,4 @@
-from session import AzureIdentitySession
+from .session import AzureIdentitySession
 
 from azure.identity import DefaultAzureCredential
 
