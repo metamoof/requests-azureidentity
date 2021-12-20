@@ -27,4 +27,5 @@ setup(
         "azure-identity>=1.6.0",
         "requests>=2.26.0",
     ],
+    packages=["requests_azureidentity"]
 )
